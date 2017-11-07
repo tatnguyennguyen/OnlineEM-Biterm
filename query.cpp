@@ -3,6 +3,10 @@
  * @date    6/2016
  */
 
+/*
+ * This is NOT the intended purpose of Biterm Topic Model
+ */
+
 #include "Corpus.h"
 #include "OnlineBiterm.h"
 #include <fstream>
