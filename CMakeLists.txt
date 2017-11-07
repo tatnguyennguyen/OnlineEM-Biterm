@@ -1,0 +1,6 @@
+project("oembt")
+set(CMAKE_CXX_FLAGS "-DNDEBUG -std=c++11 -O3 -fopenmp")
+add_executable(oembt main.cpp BitermGen.cpp Corpus.cpp OnlineBiterm.cpp measure.cpp)
+add_executable(query query.cpp BitermGen.cpp Corpus.cpp OnlineBiterm.cpp measure.cpp)
+target_link_libraries(oembt armadillo)
+target_link_libraries(query armadillo)
