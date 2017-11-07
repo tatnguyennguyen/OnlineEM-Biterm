@@ -86,6 +86,9 @@ int main(int argc, char** argv)
     cout << "Save model to " << modelName << endl;
     model.saveModel(modelName);
 
+    // NPMI
+    cout << NPMI(model.getPhi(), corpus, 10);
+
     return 0;
 }
 
