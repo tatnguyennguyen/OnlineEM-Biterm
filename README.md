@@ -12,7 +12,7 @@ With Debian/Ubuntu:
 ```
 mkdir build
 cd build
-cmake <path_to_project_folder>
+cmake -DCMAKE_BUILD_TYPE=Release <path_to_project_folder>
 make
 ```
 # Reference
